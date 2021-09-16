@@ -1,3 +1,5 @@
+## [Click Here](https://react-first-blog-aravind.netlify.app/) to view the deployed side.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
