@@ -1,0 +1,12 @@
+.h1 {
+  color: rgb(133, 125, 250);
+  display: flex;
+  justify-content: center;
+}
+
+.left_content {
+  justify-content: center;
+}
+
+.tools {
+}
