@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Posts from './Pages/Posts';
 import Header from './Component/header';
+import Comments from './Component/comments';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/About" component={About} />
+          <Route path="/Posts/:id" component={Comments} />
           <Route path="/Posts" component={Posts} />
           <Route path="/home">
             <Redirect to="/" />

@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 class Post extends React.Component {
   constructor(props) {
@@ -194,9 +195,9 @@ class Post extends React.Component {
                     </button>
                   </td>
                   <td>
-                    <button onClick={() => this.view_details(post.id)}>
-                      View
-                    </button>
+                    <Link to={`/posts/${post.id}`}>
+                      <button>View</button>
+                    </Link>
                   </td>
                 </tr>
               </tbody>
